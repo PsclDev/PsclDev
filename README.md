@@ -1,16 +1,38 @@
-### Hi there 👋
+<h1 align='center'>Hi there! <img src="https://raw.githubusercontent.com/PsclDev/PasclDev/master/wave.gif" width="30px"></h1>
+<h3 align='center'>I'm Pascal, 20 yrs, Full-Stack developer from 🇩🇪 Germany.</h3>
+<h4 align='center'>below are some stuff I like</h4>
 
-<!--
-**PsclDev/PsclDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 Technologies
+<p align="left">
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-line.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50px" /></a>
+</p>
 
-Here are some ideas to get you started:
+### 💻 Tools
+<p align="left">
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50px" /></a>
+<a href="#"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" width="50px" /></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📊 &nbsp;Analytics
+<a href="https://github.com/PsclDev/pscldev">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsclDev&theme=tokyonight&langs_count=3" />
+</a>
+<a href="https://github.com/PsclDev/pscldev">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=PsclDev&theme=tokyonight" alt="Pascals GitHub Stats" />
+</a>
