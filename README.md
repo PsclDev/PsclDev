@@ -29,9 +29,9 @@
 <h3 align='center'> 📊 &nbsp;Analytics </h3>
 <p align="center">
 <a href="https://github.com/PsclDev/pscldev">
-  <img align="center" src="https://github-readme-stats-self-five.vercel.app/api/top-langs/?username=PsclDev&theme=merko&langs_count=3&count_private=true" />
+  <img align="center" src="https://github-readme-stats-self-five.vercel.app/api/top-langs/?username=PsclDev&theme=github_dark&langs_count=3&count_private=true" />
 </a>
 <a href="https://github.com/PsclDev/pscldev">
-  <img align="center" src="https://github-readme-stats-self-five.vercel.app/api?username=PsclDev&theme=merko&count_private=true" alt="Pascals GitHub Stats" />
+  <img align="center" src="https://github-readme-stats-self-five.vercel.app/api?username=PsclDev&theme=github_dark&count_private=true" alt="Pascals GitHub Stats" />
 </a>
 </p>
