@@ -29,7 +29,7 @@
 <h3 align='center'> 📊 &nbsp;Analytics </h3>
 <p align="center">
   <a href="https://github.com/PsclDev/pscldev">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=PsclDev&theme=github-dark-blue" alt="Pascals GitHub Stats" />
+  <img align="center" src="https://pscl-github-readme-streak.herokuapp.com/?user=PsclDev&theme=github-dark-blue" alt="Pascals GitHub Stats" />
 </a>
 </p>
 <p align="center">
