@@ -10,9 +10,9 @@
   <a href="https://vuejs.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="50px" />
   <a href="https://nuxtjs.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" width="50px" />
   <a href="https://angular.io/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" width="50px" />
-  <a href="https://nestjs.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" width="50px" />
+  <a href="https://nestjs.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="50px" />
   <a href="https://www.postgresql.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50px" />
-  <a href="https://tailwindcss.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50px" />
+  <a href="https://tailwindcss.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="50px" />
 </p>
 
 <h3 align='center'> 💻 Tools </h3>
@@ -27,11 +27,6 @@
 </p>
 
 <h3 align='center'> 📊 &nbsp;Analytics </h3>
-<p align="center">
-  <a href="https://github.com/PsclDev/pscldev">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=PsclDev&theme=github-dark-blue" alt="Pascals GitHub streak"/>
-  </a>
-</p>
 
 <p align="center">
   <a href="https://github.com/PsclDev/pscldev">
