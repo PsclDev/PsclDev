@@ -1,0 +1,82 @@
+name: Check and update age
+
+on:
+  schedule:
+    # Runs every 24 hours
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  scheduled-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check and update age
+        id: check-age
+        run: |
+          node <<'EOF'
+          const fs = require('fs');
+          
+          function readAgeFromFile() {
+            const content = fs.readFileSync('README.md', 'utf8');
+            const match = content.match(/(\d+)\s+yrs/);
+            return match ? parseInt(match[1]) : null;
+          }
+          
+          function updateAgeInFile(newAge) {
+            const content = fs.readFileSync('README.md', 'utf8');
+            const updatedContent = content.replace(/\d+\s+yrs/, `${newAge} yrs`);
+            fs.writeFileSync('README.md', updatedContent);
+          }
+
+          function calculateAge() {
+            const birthDate = new Date(2000, 9, 25); // Month is 0-based, so 9 is October
+            const today = new Date();
+            
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+            
+            // If haven't reached birthday this year, subtract one year
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+              age--;
+            }
+            
+            return age;
+          }
+          
+          const currentAge = readAgeFromFile();
+          if (currentAge === null) {
+            console.error("Could not find age in README.md");
+            process.exit(1);
+          }
+          
+          console.log(`Current age in file: ${currentAge}`);
+          
+          const actualAge = calculateAge();
+          console.log(`Calculated actual age: ${actualAge}`);
+          
+          if (currentAge !== actualAge) {
+            console.log(`Age needs updating from ${currentAge} to ${actualAge}`);
+            updateAgeInFile(actualAge);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `age_updated=true\n`);
+          } else {
+            console.log("Age is current");
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `age_updated=false\n`);
+          }
+          EOF
+
+      - name: Commit changes if age was updated
+        if: steps.check-age.outputs.age_updated == 'true'
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add README.md
+          git commit -m "Updated age, Happy Birthday to me!"
+          git push 
