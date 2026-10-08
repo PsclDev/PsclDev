@@ -22,14 +22,3 @@
   <a href="https://www.cloudflare.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" width="50px" />
   <a href="https://github.com/features/actions"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="50px" />
 </p>
-
-<h3 align='center'> 📊 &nbsp;Analytics </h3>
-
-<p align="center">
-  <a href="https://github.com/PsclDev/pscldev">
-    <img align="center" src="https://github-readme-stats-self-five.vercel.app/api/top-langs/?username=PsclDev&theme=github_dark&langs_count=3&count_private=true" alt="Pascals top used languages"/>
-  </a>
-  <a href="https://github.com/PsclDev/pscldev">
-    <img align="center" src="https://github-readme-stats-self-five.vercel.app/api?username=PsclDev&theme=github_dark&count_private=true" alt="Pascals GitHub Stats" />
-  </a>
-</p>
