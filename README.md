@@ -1,24 +1,7 @@
-<h1 align='center'>Hi there! <img src="https://raw.githubusercontent.com/PsclDev/PsclDev/master/wave.gif" width="50"></h1>
-<h3 align='center'>I'm Pascal, 26 yrs, Full-Stack developer from 🇩🇪 Germany.</h3>
-<h4 align='center'>below is some stuff I like and often use</h4>
-
-<h3 align='center'> 🚀 Technologies </h3>
-<p align="center">
-  <a href="https://www.typescriptlang.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50px" />
-  <a href="https://nuxtjs.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" width="50px" />
-  <a href="https://nestjs.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="50px" />
-  <a href="https://www.postgresql.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50px" />
-  <a href="https://tailwindcss.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="50px" />
-  <a href="https://bun.sh/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bun/bun-original.svg" width="50px" />
-  <a href="https://socket.io/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" width="50px" />
-</p>
-
-<h3 align='center'> 💻 Tools </h3>
-<p align="center">
-  <a href="https://www.apple.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="50px" />
-  <a href="https://www.debian.org/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" width="50px" />
-  <a href="https://code.visualstudio.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50px" />
-  <a href="https://www.docker.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50px" />
-  <a href="https://www.cloudflare.com/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" width="50px" />
-  <a href="https://github.com/features/actions"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="50px" />
-</p>
+<a href="https://pscl.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
+    <img alt="pascal@basecamp ~ ❯ whoami --verbose — Pascal Johann, full-stack developer from Germany. Stack: TypeScript, Go, Nuxt, NestJS. Focus: side projects, self-hosting, cycling & the outdoors. Services running: side projects, self-hosting, cycling, outdoors. Tools: TypeScript, Go, C#, Nuxt.js, NestJS, Tailwind, macOS, PostgreSQL, Docker, Claude Code." src="assets/profile-dark.svg" width="100%">
+  </picture>
+</a>
